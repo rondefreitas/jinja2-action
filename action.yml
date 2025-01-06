@@ -1,4 +1,4 @@
-name: 'Jinja2 Action'
+name: 'jinja2-ron-fork'
 description: 'Use the Jinja2 templating engine on your workflow'
 inputs:
   template:
