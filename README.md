@@ -1,5 +1,5 @@
-[![release](https://img.shields.io/github/v/release/cuchi/jinja2-action?style=flat-square)](https://github.com/cuchi/jinja2-action/releases/latest)
-[![marketplace](https://img.shields.io/badge/marketplace-jinja2--action-blue?logo=github&style=flat-square)](https://github.com/marketplace/actions/jinja2-action)
+[![release](https://img.shields.io/github/v/release/rondefreitas/jinja2-action?style=flat-square)](https://github.com/rondefreitas/jinja2-action/releases/latest)
+[![marketplace](https://img.shields.io/badge/marketplace-jinja2--action-blue?logo=github&style=flat-square)](https://github.com/marketplace/actions/jinja2-ron-fork)
 
 Jinja2 is a fast and straightforward templating engine. You can use this action
 to easily run it in your GitHub workflows.
@@ -8,7 +8,7 @@ to easily run it in your GitHub workflows.
 # Using input variables
 ```yml
 - name: Setup nginx
-  uses: cuchi/jinja2-action@v1.2.2
+  uses: rondefreitas/jinja2-action@v1.2.3
   with:
     template: infra/nginx.conf.j2
     output_file: infra/nginx.conf
@@ -21,7 +21,7 @@ to easily run it in your GitHub workflows.
 # Using data files
 ```yml
 - name: Setup nginx
-  uses: cuchi/jinja2-action@v1.2.2
+  uses: rondefreitas/jinja2-action@v1.2.3
   with:
     template: infra/nginx.conf.j2
     output_file: infra/nginx.conf
@@ -32,7 +32,7 @@ to easily run it in your GitHub workflows.
 # Using environment variables
 ```yml
 - name: Setup nginx
-  uses: cuchi/jinja2-action@v1.2.2
+  uses: rondefreitas/jinja2-action@v1.2.3
   with:
     template: infra/nginx.conf.j2
     output_file: infra/nginx.conf
